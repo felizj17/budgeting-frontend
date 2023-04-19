@@ -1,0 +1,51 @@
+.home h2 {
+  text-align: left;
+}
+.transaction {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  border: black solid 2px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px;
+  padding: 0 15px;
+  align-items: center;
+}
+.date {
+  grid-column-start: 1;
+}
+.trans-link {
+  grid-column-start: 2;
+}
+.amount {
+  grid-column-start: 3;
+}
+.btns {
+  grid-column-start: 4;
+  
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.edit{
+    background-color: rgb(255, 208, 0);
+    color:white;
+    font-weight: bold;
+}
+.delete{
+    color:white;
+    font-weight: bold;
+    background-color: red;
+    margin-left:20px
+}
+.edit:hover{
+background-color: rgb(255, 183, 0);
+cursor:pointer;
+}
+.delete:hover{
+    background-color: crimson;
+    cursor:pointer;
+}
