@@ -31,7 +31,7 @@ export default function EditTransaction({transactions}) {
           newTransaction
         )
         .then(res => console.log(res))
-        navigate('/')
+        navigate(`/${newTransaction.id}`)
     } catch {
       setError(true)
     }

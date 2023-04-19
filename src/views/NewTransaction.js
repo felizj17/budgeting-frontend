@@ -33,7 +33,7 @@ export default function NewTransaction() {
           newTransaction
         )
         .then(res => console.log(res))
-      navigate('/')
+      navigate(`/${newTransaction.id}`, {state:newTransaction})
     } catch {
       setError(true)
     }

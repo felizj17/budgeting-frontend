@@ -7,6 +7,7 @@ import Home from './views/Home'
 import NewTransaction from './views/NewTransaction'
 import EditTransaction from './views/EditTransaction'
 import ViewTransaction from './views/ViewTransaction'
+import NotFound from './views/NotFound'
 const API = process.env.REACT_APP_API_URL
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
             path='/edit/:id'
             element={<EditTransaction transactions={transactions} />}
           />
+          <Route path='/404' element={<NotFound/>}/>
         </Routes>
       </div>
     </div>

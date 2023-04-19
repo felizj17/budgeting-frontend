@@ -40,6 +40,14 @@ select{
     background-color: greenyellow;
 
 }
+.create:hover{
+    cursor: pointer;
+    background-color: limegreen;
+}
 .cancel{
     background-color: red;
+}
+.cancel:hover{
+    background-color: crimson;
+    cursor: pointer;
 }

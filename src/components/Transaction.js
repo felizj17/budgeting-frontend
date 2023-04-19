@@ -56,7 +56,7 @@ export default function Transaction({ transaction, handleDelete }) {
       <Link className='trans-link' to={`/${transaction.id}`}>
         <p>{`${transaction.item_name}(${transaction.category})`}</p>
       </Link>
-      <p className='amount'>{`$${transaction.amount}`}</p>
+      <p className='amount'>$<span className={transaction.amount.toString().includes('-')?'red':'green'}>{transaction.amount}</span></p>
       <div className='btns'>
         <button onClick={()=>{navigate(`/edit/${transaction.id}`)}}>✏️</button>
         <button onClick={()=>handleDelete(transaction.id)}>❌</button>

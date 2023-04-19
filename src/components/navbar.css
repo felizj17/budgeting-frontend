@@ -11,7 +11,7 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 }
-img {
+.img{
   width: 50px;
   height: 50px;
 }
@@ -52,4 +52,14 @@ img {
 .home-link:hover {
   color: green;
   cursor: pointer;
+}
+
+.green{
+    color:green;
+}
+.yellow{
+    color:rgb(255, 208, 0);
+}
+.red{
+    color:red;
 }
