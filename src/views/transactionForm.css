@@ -1,0 +1,45 @@
+
+.sub-title{
+    margin-left:20%;
+}
+form{
+    border: solid 3px aquamarine;
+    padding:15px;
+    text-align: center;
+    width:50%;
+    margin:auto auto
+}
+label{
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+    display:block;
+    margin:5px 0;
+}
+input{
+    margin-bottom:20px;
+    width:100%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    margin-top:20px;
+    height: 35px;
+    font-size:medium;
+    border-radius: 5px;
+
+}
+select{
+    margin-top:20px;
+    width:100%;
+}
+.create{
+    background-color: greenyellow;
+
+}
+.cancel{
+    background-color: red;
+}
